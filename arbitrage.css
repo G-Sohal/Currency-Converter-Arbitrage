@@ -1,0 +1,72 @@
+body {
+    font-family: Garamond;
+    margin-top: 100px;
+    padding-top: 10;
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {                   
+    position: fixed;
+    top: 0;
+    padding-top: 30px;
+}
+
+nav a {
+    padding: 10px 10px;
+    margin: 0 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: goldenrod;
+}
+
+.arbitrage {
+    background: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px;
+    border: 1.3px solid rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+
+button {
+    background-color: palegoldenrod;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+#upperLimit {
+    width: 10%;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+}

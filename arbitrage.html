@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Arbitrage</title>
+    <link href="arbitrage.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="./converter.html">Currency Conversion</a>
+        <a href="./arbitrage.html">Currency Arbitrage</a>
+    </nav>
+    <div class="arbitrage">
+        <h1>Currency Exchange Arbitrage</h1>
+        <hr>
+        <h4>Did you know you can make money by exchanging currencies?</h4>
+        <br>
+        <h4>Helping you use the price differences to get the max profit! 💰</h4>
+        <hr>
+            <div class="form">
+                <label for="fromCurrency"> From: </label>
+                <select id="fromCurrency"></select>
+            </div>
+            <div class="form">
+                <label for="toCurrency"> To: </label>
+                <select id="toCurrency"></select>
+            </div>
+            <div class="convert">
+                <button id="find"> Find me
+                    <input type="number" id="upperLimit" min="1"/>
+                    number of paths.
+                </button>
+            </div>
+            <div id="result"></div>
+    </div>
+    <script src="arbitrage.js"></script>
+</body>
+</html>
